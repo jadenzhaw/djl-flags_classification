@@ -33,14 +33,31 @@
 <body>
     <div class="container text-center">
         <h1 class="mb-4">
-            🌍 Country Flag Classification
+            Spass mit Flaggen
+            <div style="text-align: center; margin-top: 10px;">
+                <img src="/images/fun_with_flags.png" 
+                     alt="Fun with Flags" 
+                     style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+            </div>
         </h1>
-        <p class="text-muted">Deep Java Library (DJL) Demo by Jaden Donati prüfe, welches Land zu deiner Flagge passt.</p>
 
-        <div class="card p-4 mb-4 shadow-sm">
-            <label for="image"><strong>Bitte Flagge hochladen (jpeg, png)</strong></label>
-            <input type="file" id="image" accept="image/png, image/jpeg" class="form-control-file mt-2"
-                   onchange="checkFiles(this.files)">
+        <p class="text-muted">
+            Lade ein Bild einer Flagge hoch, und die Anwendung sagt dir, ob es sich um die Flagge von Österreich, Belgien oder Bulgarien handelt, inklusive Wahrscheinlichkeit der Erkennung. Das Modell basiert auf Deep Java Library (DJL) und wurde speziell für diese drei Länder trainiert.
+            <br /> by Jaden Donati
+        </p>
+
+        <!-- Zentrierte Datei-Auswahl -->
+        <div class="card p-4 mb-4 shadow-sm mx-auto" style="max-width: 500px;">
+            <form>
+                <div class="form-group">
+                    <label for="image" class="font-weight-bold d-block text-center">Bitte Flagge hochladen (jpeg, png)</label>
+                    <div class="d-flex justify-content-center">
+                        <input type="file" id="image" accept="image/png, image/jpeg"
+                               class="form-control-file"
+                               onchange="checkFiles(this.files)">
+                    </div>
+                </div>
+            </form>
         </div>
 
         <div id="answerPart" style="display: none;">
