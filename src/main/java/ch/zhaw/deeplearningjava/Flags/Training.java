@@ -10,7 +10,7 @@
  * OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions
  * and limitations under the License.
  */
-package ch.zhaw.deeplearningjava.footwear;
+package ch.zhaw.deeplearningjava.Flags;
 
 import ai.djl.Model;
 import ai.djl.basicdataset.cv.classification.ImageFolder;

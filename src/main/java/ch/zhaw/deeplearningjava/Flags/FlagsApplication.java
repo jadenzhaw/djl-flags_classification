@@ -1,13 +1,14 @@
-package ch.zhaw.deeplearningjava.footwear;
+package ch.zhaw.deeplearningjava.Flags;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FootwearApplication {
+public class FlagsApplication
+ {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FootwearApplication.class, args);
+		SpringApplication.run(FlagsApplication.class, args);
 	}
 
 }
