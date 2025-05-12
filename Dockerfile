@@ -1,6 +1,6 @@
 # Usage
-# docker build -t mosazhaw/djl-footwear-classification .
-# docker run --name djl-footwear-classification -p 8080:8080 -d mosazhaw/djl-footwear-classification
+# docker build -t tutti112/djl-flags-classification .
+# docker run --name djl-flags-classification -p 8080:8080 -d tutti112/djl-footwear-classification
 
 FROM openjdk:21-jdk-slim
 
